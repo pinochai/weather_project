@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "weather-project"
+version = "0.1.0"
+description = ""
+authors = ["non"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+boto3 = "^1.36.7"
+aws-cdk-lib = "^2.177.0"
+constructs = "^10.4.2"
+certifi = "^2024.12.14"
+pytest = "^8.3.4"
+aws-cdk-aws-lambda-python-alpha = "^2.177.0a0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
